@@ -4,11 +4,16 @@ using UnityEngine;
 
 public class CameraSmoothDamp : MonoBehaviour
 {
+
     public Transform target;
     public Vector3 smoothSpeed;
     public Vector3 offset;
     public Vector3 zoomIn;
     public float maxSpeed;
+
+
+
+    
 
     void LateUpdate()
     {
